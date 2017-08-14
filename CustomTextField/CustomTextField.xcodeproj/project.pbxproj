@@ -8,24 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		451FE0E91F405AAD008BF147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451FE0E81F405AAD008BF147 /* AppDelegate.swift */; };
-		451FE0EB1F405AAD008BF147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451FE0EA1F405AAD008BF147 /* ViewController.swift */; };
+		451FE0EB1F405AAD008BF147 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451FE0EA1F405AAD008BF147 /* MainVC.swift */; };
 		451FE0EE1F405AAD008BF147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451FE0EC1F405AAD008BF147 /* Main.storyboard */; };
 		451FE0F01F405AAD008BF147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451FE0EF1F405AAD008BF147 /* Assets.xcassets */; };
 		451FE0F31F405AAD008BF147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451FE0F11F405AAD008BF147 /* LaunchScreen.storyboard */; };
+		451FE0FD1F405D7A008BF147 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451FE0FC1F405D7A008BF147 /* CurrencyTextField.swift */; };
+		451FE1051F4068F8008BF147 /* CustomTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451FE1041F4068F8008BF147 /* CustomTextFieldTests.swift */; };
+		451FE10E1F406939008BF147 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451FE10D1F406939008BF147 /* Wage.swift */; };
+		451FE10F1F406AF2008BF147 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451FE10D1F406939008BF147 /* Wage.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		451FE1071F4068F8008BF147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 451FE0DD1F405AAD008BF147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 451FE0E41F405AAD008BF147;
+			remoteInfo = CustomTextField;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		451FE0E51F405AAD008BF147 /* CustomTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		451FE0E81F405AAD008BF147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		451FE0EA1F405AAD008BF147 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		451FE0EA1F405AAD008BF147 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		451FE0ED1F405AAD008BF147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		451FE0EF1F405AAD008BF147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		451FE0F21F405AAD008BF147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		451FE0F41F405AAD008BF147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451FE0FC1F405D7A008BF147 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		451FE1021F4068F8008BF147 /* CustomTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		451FE1041F4068F8008BF147 /* CustomTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldTests.swift; sourceTree = "<group>"; };
+		451FE1061F4068F8008BF147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451FE10D1F406939008BF147 /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		451FE0E21F405AAD008BF147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451FE0FF1F4068F8008BF147 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				451FE0E71F405AAD008BF147 /* CustomTextField */,
+				451FE1031F4068F8008BF147 /* CustomTextFieldTests */,
 				451FE0E61F405AAD008BF147 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				451FE0E51F405AAD008BF147 /* CustomTextField.app */,
+				451FE1021F4068F8008BF147 /* CustomTextFieldTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +82,49 @@
 		451FE0E71F405AAD008BF147 /* CustomTextField */ = {
 			isa = PBXGroup;
 			children = (
+				451FE10C1F40692B008BF147 /* Model */,
+				451FE0FB1F405D57008BF147 /* Views */,
+				451FE0FA1F405BCB008BF147 /* Controller */,
 				451FE0E81F405AAD008BF147 /* AppDelegate.swift */,
-				451FE0EA1F405AAD008BF147 /* ViewController.swift */,
 				451FE0EC1F405AAD008BF147 /* Main.storyboard */,
 				451FE0EF1F405AAD008BF147 /* Assets.xcassets */,
 				451FE0F11F405AAD008BF147 /* LaunchScreen.storyboard */,
 				451FE0F41F405AAD008BF147 /* Info.plist */,
 			);
 			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		451FE0FA1F405BCB008BF147 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				451FE0EA1F405AAD008BF147 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		451FE0FB1F405D57008BF147 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				451FE0FC1F405D7A008BF147 /* CurrencyTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		451FE1031F4068F8008BF147 /* CustomTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				451FE1041F4068F8008BF147 /* CustomTextFieldTests.swift */,
+				451FE1061F4068F8008BF147 /* Info.plist */,
+			);
+			path = CustomTextFieldTests;
+			sourceTree = "<group>";
+		};
+		451FE10C1F40692B008BF147 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				451FE10D1F406939008BF147 /* Wage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +147,24 @@
 			productReference = 451FE0E51F405AAD008BF147 /* CustomTextField.app */;
 			productType = "com.apple.product-type.application";
 		};
+		451FE1011F4068F8008BF147 /* CustomTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451FE1091F4068F8008BF147 /* Build configuration list for PBXNativeTarget "CustomTextFieldTests" */;
+			buildPhases = (
+				451FE0FE1F4068F8008BF147 /* Sources */,
+				451FE0FF1F4068F8008BF147 /* Frameworks */,
+				451FE1001F4068F8008BF147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				451FE1081F4068F8008BF147 /* PBXTargetDependency */,
+			);
+			name = CustomTextFieldTests;
+			productName = CustomTextFieldTests;
+			productReference = 451FE1021F4068F8008BF147 /* CustomTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +177,10 @@
 				TargetAttributes = {
 					451FE0E41F405AAD008BF147 = {
 						CreatedOnToolsVersion = 9.0;
+					};
+					451FE1011F4068F8008BF147 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 451FE0E41F405AAD008BF147;
 					};
 				};
 			};
@@ -113,6 +198,7 @@
 			projectRoot = "";
 			targets = (
 				451FE0E41F405AAD008BF147 /* CustomTextField */,
+				451FE1011F4068F8008BF147 /* CustomTextFieldTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +214,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		451FE1001F4068F8008BF147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -135,12 +228,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				451FE0EB1F405AAD008BF147 /* ViewController.swift in Sources */,
+				451FE0FD1F405D7A008BF147 /* CurrencyTextField.swift in Sources */,
+				451FE10E1F406939008BF147 /* Wage.swift in Sources */,
+				451FE0EB1F405AAD008BF147 /* MainVC.swift in Sources */,
 				451FE0E91F405AAD008BF147 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		451FE0FE1F4068F8008BF147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451FE1051F4068F8008BF147 /* CustomTextFieldTests.swift in Sources */,
+				451FE10F1F406AF2008BF147 /* Wage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		451FE1081F4068F8008BF147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 451FE0E41F405AAD008BF147 /* CustomTextField */;
+			targetProxy = 451FE1071F4068F8008BF147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		451FE0EC1F405AAD008BF147 /* Main.storyboard */ = {
@@ -295,6 +407,34 @@
 			};
 			name = Release;
 		};
+		451FE10A1F4068F8008BF147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = python.CustomTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTextField.app/CustomTextField";
+			};
+			name = Debug;
+		};
+		451FE10B1F4068F8008BF147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = python.CustomTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTextField.app/CustomTextField";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -312,6 +452,15 @@
 			buildConfigurations = (
 				451FE0F81F405AAD008BF147 /* Debug */,
 				451FE0F91F405AAD008BF147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451FE1091F4068F8008BF147 /* Build configuration list for PBXNativeTarget "CustomTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451FE10A1F4068F8008BF147 /* Debug */,
+				451FE10B1F4068F8008BF147 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
